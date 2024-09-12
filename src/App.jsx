@@ -58,6 +58,8 @@ const sortImagesByAge = async () => {
 
   const imageAnalysis = [];
 
+
+  
   // Asosiy va boshqa suratlarni Uint8Array formatiga o'tkazamiz
   const mainImageBytes = await fetch(mainImage)
     .then(res => res.arrayBuffer())
